@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-2xl font-bold">
-            <img src="/public/view-3d-cinema-elements.jpg" alt="Film Icon" className="h-8 w-8" />
+            <Film className="h-8 w-8 text-blue-600 dark:text-blue-400" />
             <span>Movie Search</span>
           </Link>
 
