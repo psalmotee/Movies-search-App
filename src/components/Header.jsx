@@ -8,7 +8,7 @@ const Header = () => {
   const { darkMode, toggleDarkMode } = useTheme();
 
   return (
-    <header className="bg-white shadow-md dark:bg-gray-800 dark:text-white">
+    <header className="fixed top-0 left-0 w-full bg-white shadow-md dark:bg-gray-800 dark:text-white z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-2xl font-bold">
